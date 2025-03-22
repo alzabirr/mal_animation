@@ -1,7 +1,7 @@
 body {
   background: #111;
   color: #ccc;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Courier, 'Courier New', monospace;
   letter-spacing: 0.8rem;
   margin: 0;
@@ -14,7 +14,7 @@ p {
 
 .fullheight {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   align-items: center;
   display: flex;
 }
