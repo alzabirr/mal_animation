@@ -4,9 +4,9 @@ const random_char = () => {
           "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
           "abcdefghijklmnopqrstuvwxyz";
     return possible.charAt(Math.floor(Math.random() * possible.length));
-  };
+};
   
-  const mask = (chars, progress) => {
+const mask = (chars, progress) => {
     const masked = [];
   
     for (let i = 0; i < chars.length; i++) {
@@ -19,9 +19,9 @@ const random_char = () => {
     }
   
     return masked.join('');
-  };
+};
   
-  const shuffle = el => {
+const shuffle = el => {
     const chars = el.textContent.split('');
   
     const params = {
@@ -46,8 +46,8 @@ const random_char = () => {
       el.classList.remove('completed');
       a.restart();
     };
-  };
+};
   
-  for (const el of document.querySelectorAll('.shuffle')) {
+for (const el of document.querySelectorAll('.shuffle')) {
     shuffle(el);
-  }
+}
