@@ -14,7 +14,7 @@ p {
 
 .fullheight {
   width: 100vw;
-  height: 70vh;
+  height: 100svh;
   align-items: center;
   display: flex;
 }
